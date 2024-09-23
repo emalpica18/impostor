@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head> 
+
+    <body>
+        <!-- <script  type="text/javascript" src="./general.js"></script> -->
+        <script  type="text/javascript" src="./other.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <div class="wrapper">
+            <div class="sign-panels">
+                <div class="login">
+                    <div class="title">
+                        <img class="logoImage" id="companyLogo" src="./recursos/logo.png" alt="NTTData">
+                        <div id="loginMessage" class="groupMargin">Iniciar sesión</div>
+                    </div>
+        
+                    <form action="">
+                        <input type="text" placeholder="Username" value="pboye@nttdata.com">
+                        <input type="password" placeholder="Password" >
+                        <input type="checkbox" id="remember">
+                        <!-- <label for="remember">Keep me sign in</label> -->
+                        <a href="#" class="btn-signin">Iniciar sesión</a>
+                        <span>
+                            ¿Olvidaste tu contraseña? 
+                             <a href="javascript:void(0)" class="btn-reset btn-fade">Recuperar <i class="fa fa-long-arrow-right"
+                                aria-hidden="true"></i></a>
+                        </span>
+
+         
+                    </form>
+                </div>
+        
+                <div class="signup">
+                    <div class="title">
+                        <span>Sign Up</span>
+                        <p>Create a new account. You can sign up with your facebook or twitter accunt. Or your regular user
+                            login.</p>
+                    </div>
+        
+                    <div>
+                        <a href="#" class="btn-face"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                        <a href="#" class="btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                    </div>
+        
+                    <div class="or"><span>OR</span></div>
+        
+                    <form action="">
+                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Email Address">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Repeat Password">
+        
+                        <a href="#" class="btn-signin">Sign Up</a>
+                        <a href="javascript:void(0)" class="btn-login btn-fade">Already have an account, Sign In <i
+                                class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    </form>
+                </div>
+        
+                <div class="recover-password">
+                    <div class="title">
+                        <span>Recordar contraseña</span>
+                    </div>
+        
+                    <form action="">
+                        <input type="email" placeholder="Contraseña" id="resetPassword" required>
+                        <span class="error"></span>
+                        <a href="javascript:void(0)" class="btn-signin btn-password">Ingresar contraseña</a>
+                        <a href="javascript:void(0)" class="btn-login2 btn-fade"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Cancelar
+                        y regresar a login </a>
+                    </form>
+                    <span class="error2">El nombre del país no es correcto</span>
+        
+                    <form action="">
+                        <input type="text" placeholder="¿Nombre de su primera mascota?" id="pk1" required>
+                        <input type="text" placeholder="¿Cuál es su color favorito?" id="pk2" required>
+                        <input type="text" placeholder="¿Último lugar donde ha viajado?" id="pk3" required>
+                        <input type="text" placeholder="¿Cuál es su número favorito?" id="pk4" required>
+                    </br>
+                        <a href="javascript:void(0)" class="btn-repas">Recordar contraseña</a>
+
+
+                    </form>
+
+                    <div class="notification">
+                        <p>Good job. An email containing information on how to reset your passworld was sent to
+                            <span class="reset-mail"></span>. Please follow the instruction in that email to
+                            reset your password. Thanks!</p>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+<!--
+ * Created by Muhammed Erdem on 10.10.2017.
+ *-->
